@@ -1,8 +1,18 @@
 /* pixels / 16 = rem */
 
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background:red;
+    border: 5px solid white; */
+}
+
 .card {
     width: 90%;
-    margin: 0 auto;
+    
     max-width: 800px;
     background: #111d4a;
     color: #fff;
