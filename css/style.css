@@ -10,9 +10,23 @@
     flex-direction: column;
 }
 
+@media (min-width: 600px) {
+    .card {
+        flex-direction: row;
+    }
+
+    .card-img {
+        hight: 300px
+    }
+}
+
 .card-img {
     object-fit: cover;
-    height: 150px;
+    flex-basis: 200px;
+    min-width: 0;
+    min-height: 0;
+
+    background: yellow;
 }
 
 .card-content {
